@@ -1,0 +1,14 @@
+name: DynamicEventsMC
+version: 1.0.0
+main: com.example.dynamicevents.DynamicEventsPlugin
+api-version: 1.21
+depend: []
+commands:
+  dynamicevents:
+    description: Управление динамическими событиями
+    usage: /dynamicevents <reload|info|spawn|list|remove>
+    permission: dynamicevents.admin
+permissions:
+  dynamicevents.admin:
+    description: Админские права для плагина
+    default: op
